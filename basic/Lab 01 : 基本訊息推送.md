@@ -77,7 +77,8 @@ PS D:\linetest>
 完成後會看到類似上面的畫面。
 
 4. 鍵入訊息發送程式碼
-將上圖中的第9行程式註銷，換成底下程式碼(請注意ChannelAccessToken和UserId 須換為你自己申請的LINE Bot相關資訊)：
+將上圖中的第9行程式註銷，換成底下程式碼
+(請注意ChannelAccessToken和UserId 須換為你自己申請的LINE Bot相關資訊)：
 ```csharp
             //Console.WriteLine("Hello World!");
             var ChannelAccessToken = "_____replace_with_your_channel_access_token_____";
