@@ -78,7 +78,9 @@ PS D:\linetest>
 
 4. 鍵入訊息發送程式碼
 將上圖中的第9行程式註銷，換成底下程式碼(請注意ChannelAccessToken和UserId 須換為你自己申請的LINE Bot相關資訊)：
+
 <script src="https://gist.github.com/isdaviddong/dccab81edb0be7853c98d210dfe6f901.js"></script>
+efwef
 
 ```csharp
             //Console.WriteLine("Hello World!");
