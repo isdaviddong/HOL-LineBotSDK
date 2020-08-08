@@ -74,7 +74,43 @@ PS D:\linetest&gt;
 <p><img src="https://i.imgur.com/QQBSJWL.png" alt="enter image description here"><br>
 完成後會看到類似上面的畫面。</p>
 <ol start="4">
-<li>在LINE的LINE Bot管理後台建立LINE Bot帳號<br>
-為了發送訊息，我們</li>
+<li>鍵入訊息發送程式碼<br>
+將上圖中的第9行程式註銷，換成底下程式碼(請注意ChannelAccessToken和UserId 須換為你自己申請的LINE Bot相關資訊)：</li>
+</ol>
+<pre class=" language-csharp"><code class="prism  language-csharp">            <span class="token comment">//Console.WriteLine("Hello World!");</span>
+            <span class="token keyword">var</span> ChannelAccessToken <span class="token operator">=</span> <span class="token string">"_____replace_with_your_channel_access_token_____"</span><span class="token punctuation">;</span>
+            <span class="token keyword">var</span> UserId <span class="token operator">=</span> <span class="token string">"_____replace_with_your_userId_____"</span><span class="token punctuation">;</span>
+            <span class="token keyword">var</span> bot <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">isRock<span class="token punctuation">.</span>LineBot<span class="token punctuation">.</span>Bot</span><span class="token punctuation">(</span>ChannelAccessToken<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token comment">//push text</span>
+            bot<span class="token punctuation">.</span><span class="token function">PushMessage</span><span class="token punctuation">(</span>UserId<span class="token punctuation">,</span> <span class="token string">"Hello World"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token comment">//push sticker</span>
+            bot<span class="token punctuation">.</span><span class="token function">PushMessage</span><span class="token punctuation">(</span>UserId<span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token comment">//push image</span>
+            bot<span class="token punctuation">.</span><span class="token function">PushMessage</span><span class="token punctuation">(</span>UserId<span class="token punctuation">,</span> <span class="token keyword">new</span> <span class="token class-name">Uri</span><span class="token punctuation">(</span><span class="token string">"https://i.imgur.com/OQx8aid.png"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token comment">//push Audio</span>
+            <span class="token keyword">var</span> AudioMsg <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">isRock<span class="token punctuation">.</span>LineBot<span class="token punctuation">.</span>AudioMessage</span><span class="token punctuation">(</span>
+            <span class="token keyword">new</span> <span class="token class-name">Uri</span><span class="token punctuation">(</span><span class="token string">"https://arock.blob.core.windows.net/blogdata202008/test.mp3"</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token number">6000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            bot<span class="token punctuation">.</span><span class="token function">PushMessage</span><span class="token punctuation">(</span>UserId<span class="token punctuation">,</span> AudioMsg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token comment">//push Video            </span>
+            <span class="token keyword">var</span> VideoMsg <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">isRock<span class="token punctuation">.</span>LineBot<span class="token punctuation">.</span>VideoMessage</span><span class="token punctuation">(</span>
+            <span class="token keyword">new</span> <span class="token class-name">Uri</span><span class="token punctuation">(</span><span class="token string">"https://arock.blob.core.windows.net/blogdata202008/POC.mp4"</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            <span class="token keyword">new</span> <span class="token class-name">Uri</span><span class="token punctuation">(</span><span class="token string">"https://imgur.com/LPQhfXR.png"</span><span class="token punctuation">)</span>
+            <span class="token punctuation">)</span><span class="token punctuation">;</span>
+            bot<span class="token punctuation">.</span><span class="token function">PushMessage</span><span class="token punctuation">(</span>UserId<span class="token punctuation">,</span> VideoMsg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token comment">//push location</span>
+            <span class="token keyword">var</span> LocationMsg <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">isRock<span class="token punctuation">.</span>LineBot<span class="token punctuation">.</span>LocationMessage</span><span class="token punctuation">(</span>
+            <span class="token string">"大安森林公園"</span><span class="token punctuation">,</span> <span class="token string">"台北市大安區新生南路二段1號"</span><span class="token punctuation">,</span> <span class="token number">25.030000</span><span class="token punctuation">,</span> <span class="token number">121.535833</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            bot<span class="token punctuation">.</span><span class="token function">PushMessage</span><span class="token punctuation">(</span>UserId<span class="token punctuation">,</span> LocationMsg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<ol start="5">
+<li>在VS Code以hot key(C+S+`)切換至terminal：<br>
+<img src="https://i.imgur.com/24odB1m.png" alt="enter image description here"></li>
+<li>鍵入 dotnet run 執行程式</li>
+</ol>
+<pre class=" language-dos"><code class="prism  language-dos">PS D:\linetest&gt; dotnet run
+</code></pre>
+<ol start="7">
+<li>檢視結果<br>
+<img src="https://i.imgur.com/DRRmTcM.png" alt="enter image description here"></li>
 </ol>
 
