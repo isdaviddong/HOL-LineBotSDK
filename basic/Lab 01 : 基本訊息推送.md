@@ -20,7 +20,7 @@ PS D:\> cd linetest
 PS D:\linetest> dotnet new console
 ```
 系統會出現類似底下畫面...
-```
+```bash
 The template "Console Application" was created successfully.
 
 Processing post-creation actions...
@@ -31,11 +31,11 @@ Restore succeeded.
 ```
 
 2.接著執行底下指令， 安裝 LineBotSDK 套件...
-```
+```bash
 PS D:\linetest> dotnet add package linebotsdk
 ```
 系統會出現類似底下畫面...
-```
+```bash
 PS D:\linetest> dotnet add package linebotsdk
   正在判斷要還原的專案...
   Writing C:\Users\...\AppData\Local\Temp\tmpC537.tmp
@@ -50,7 +50,7 @@ info : 正在將資產檔案寫入磁碟。路徑: D:\linetest\obj\project.asset
 log  : 已還原 D:\linetest\linetest.csproj (3.16 sec 內)。
 ```
 安裝完成後我們順便建置(Build)一下，看結果如何:
-```
+```bash
 PS D:\linetest> dotnet build
 Microsoft (R) Build Engine for .NET Core 16.6.0+5ff7b0c9e 版
 Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
@@ -69,7 +69,7 @@ Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
 
 3. 透過底下指令，開啟 VS Code進入開發環境
 請在命令列輸入 code (空格) .
-```
+```bash
 PS D:\linetest> code .
 PS D:\linetest>
 ```
