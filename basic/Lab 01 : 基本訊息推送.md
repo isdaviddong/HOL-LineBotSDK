@@ -3,7 +3,7 @@
 
 ---
 
-<h1 id="lab--基本line訊息推送">Lab : 基本LINE訊息推送</h1>
+<h1 id="lab--line訊息推送push-message">Lab : LINE訊息推送(Push Message)</h1>
 <h2 id="overview">Overview</h2>
 <p>這個lab介紹如何透過 C# 已程式碼發送各種LINE基本訊息，包含貼圖、文字、圖片、聲音、影片、GPS 座標位置(Location)</p>
 <h2 id="prerequisites">Prerequisites</h2>
