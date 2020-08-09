@@ -5,7 +5,7 @@
 這個lab介紹如何透過 C# 已程式碼發送各種LINE基本訊息，包含貼圖、文字、圖片、聲音、影片、GPS 座標位置(Location)
 
 ## Prerequisites
-0. 建立好LINE Bot帳號，並取得Channel Access Token與UserId
+0. 建立好LINE Bot帳號，並取得Channel Access Token與UserId [參考這裡](https://github.com/isdaviddong/HOL-LineBotSDK/blob/master/00.%20%E5%A6%82%E4%BD%95%E7%94%B3%E8%AB%8BLINE%20Bot.md)
 1. 下載安裝 .net core sdk 3.1 以上版本 [here](https://dotnet.microsoft.com/download)
 2. 安裝 Visual Studio Code 開發工具 [here](https://code.visualstudio.com/download)
 3. 建立 .net core console 專案，在專案中引用 nuget 上的 LineBotSDK 套件。
