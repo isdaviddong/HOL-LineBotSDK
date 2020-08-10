@@ -201,7 +201,8 @@ PS D:\linetest> dotnet run
 ![enter image description here](https://i.imgur.com/B0s4hqT.png)
 
 ### 發送Image Carousel  
-Image Carousel是可左右捲動的滿版圖片，並且可附上按鈕。請輸入下面的程式碼...
+Image Carousel是可左右捲動的滿版圖片，並且可附上按鈕。
+請輸入下面的程式碼...
 ```csharp
 //單一Column 
 var Column = new isRock.LineBot.ImageCarouselColumn
