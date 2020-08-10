@@ -202,6 +202,7 @@ PS D:\linetest> dotnet run
 
 ### 發送Image Carousel  
 Image Carousel是可左右捲動的滿版圖片，並且可附上按鈕。
+
 請輸入下面的程式碼...
 ```csharp
 //單一Column 
