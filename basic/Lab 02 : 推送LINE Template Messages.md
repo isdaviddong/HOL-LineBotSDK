@@ -225,5 +225,4 @@ bot.PushMessage(UserId, ImageCarouselTemplate);
 PS D:\linetest> dotnet run
 ```
 執行後，可得到結果如下：
-
-![enter image description here](https://i.imgur.com/B0s4hqT.png)
+![enter image description here](https://i.imgur.com/UcxlIfg.png)
