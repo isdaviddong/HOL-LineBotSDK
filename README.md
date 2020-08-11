@@ -1,8 +1,9 @@
-# Hand-On Labs - LineBotSDK 
+# Hand-On Labs - LineBotSDK 實作手札
 
 ![圖片](https://i.imgur.com/nKmrTnO.png)   
 
-本repos包含 LineBotSDK 套件各種API之Labs。
+本repos包含 LineBotSDK 套件各種API之Labs。  
+遵循本手札勤於練習，十日必有小成，不出三月必能掌握 LINE Bot 開發技能於股掌之間... :)
 
 Lab Index:
 ---
