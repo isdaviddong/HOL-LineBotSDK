@@ -12,7 +12,6 @@ QuickReply快捷選項是帶有圖示的功能按鈕，支援開啟時間日期�
 1. 下載安裝 .net core sdk 3.1 以上版本 [here](https://dotnet.microsoft.com/download)
 2. 安裝 Visual Studio Code 開發工具 [here](https://code.visualstudio.com/download)
 3. 建立 .net core console 專案，在專案中引用 nuget 上的 LineBotSDK 套件。 
-4. 透過Simulator建立好一組訊息JSON
 
 ## Steps
 
