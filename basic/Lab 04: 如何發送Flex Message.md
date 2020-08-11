@@ -9,7 +9,7 @@ FlexMessage是可以自由設計外觀的訊息格式，且使用此格式發送
 設計、行銷人員即便不懂JSON，也可以透過底下這個Simulator來建立Flex Message:
 [https://developers.line.biz/flex-simulator/](https://developers.line.biz/flex-simulator/)
 
-本Lab介紹如何透過 C# 以程式碼發送建立好的Flex Message訊息JSON。
+本Lab介紹如何透過 C# 以程式碼發送建立好的Flex Message格式的訊息JSON。
 
 ## Prerequisites
 0. 建立好LINE Bot帳號，並取得Channel Access Token與UserId [參考這裡](https://github.com/isdaviddong/HOL-LineBotSDK/blob/master/00.%20%E5%A6%82%E4%BD%95%E7%94%B3%E8%AB%8BLINE%20Bot.md)
