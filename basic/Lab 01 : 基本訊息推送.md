@@ -123,4 +123,4 @@ PS D:\linetest> dotnet run
 線上課程：[https://www.udemy.com/line-bot/](https://www.blogger.com/blog/post/edit/4291069679343025964/3413012120805912874#)  
 LineBotSDK：[https://www.nuget.org/packages/LineBotSDK](https://www.blogger.com/blog/post/edit/4291069679343025964/3413012120805912874#)  
 
-如果需要即時取得更多相關訊息，可按[這裡](https://www.blogger.com/blog/post/edit/4291069679343025964/3413012120805912874#)加入FB專頁。若這篇文章對您有所幫助，請幫我們分享出去，謝謝您的支持。
+如果需要即時取得更多相關訊息，可按[這裡](https://www.facebook.com/DotNetWalker/)加入FB專頁。若這篇文章對您有所幫助，請幫我們分享出去，謝謝您的支持。
