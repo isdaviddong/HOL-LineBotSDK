@@ -1,5 +1,5 @@
-發送LINE Template Messages
- ===
+如何發送LINE Template Messages
+===
 
 ## Overview
 這個Lab介紹如何透過 C# 以程式碼發送LINE的Template message訊息。包含Buttons Template, Confirm Template, Carousel Template, Image Carousel Template訊息。
