@@ -29,7 +29,8 @@ Lab 14 : 如何在WebHook中取得用戶上傳的檔案
 Lab 15 : 如何在WebHook中取得用戶上傳的座標位置   
 Lab 16 : 如何在WebHook中取得前端LINE Bot postback回來的資訊   
 
-Exercise : 建立人臉辨識LINE Bot [Sample code](https://github.com/isdaviddong/Linebot-Demo-FaceRecognition)   
+Exercise : 建立人臉辨識 LINE Bot [Sample code](https://github.com/isdaviddong/Linebot-Demo-FaceRecognition)     
+Exercise : 建立線上即時翻譯 LINE Bot [Sample code](https://github.com/isdaviddong/Linebot-Demo-TranslatorKing)
 
 相關參考資料
 ---
