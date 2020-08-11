@@ -3,9 +3,7 @@
 ## Overview
 FlexMessage是可以自由設計外觀的訊息格式，且使用此格式發送的訊息，在PC和手機上都可以檢視。
 
-你可以輕易設計出類似底下這樣的仿名片格式訊息:
-
-或是底下這樣格式自由的訊息:
+你可以輕易設計出類似底下這樣格式自由的訊息:
 ![Flex Message examples](https://developers.line.biz/assets/img/bubbleSamples-Update1.96cf1f73.png)
 
 設計、行銷人員即便不懂JSON，也可以透過底下這個Simulator來建立Flex Message:
