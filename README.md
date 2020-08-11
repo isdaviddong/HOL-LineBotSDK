@@ -10,7 +10,7 @@ Lab Index:
 Lab 00 : 如何從無到有申請一隻LINE Bot [here](https://github.com/isdaviddong/HOL-LineBotSDK/blob/master/00.%20%E5%A6%82%E4%BD%95%E7%94%B3%E8%AB%8BLINE%20Bot.md)  
 Lab 01 : 如何發送文字、貼圖、圖片、GPS座標位置、影音訊息 [here](https://github.com/isdaviddong/HOL-LineBotSDK/blob/master/basic/Lab%2001%20:%20%E5%9F%BA%E6%9C%AC%E8%A8%8A%E6%81%AF%E6%8E%A8%E9%80%81.md)  
 Lab 02 : 如何發送卡片格式的Template Messages [here](https://github.com/isdaviddong/HOL-LineBotSDK/blob/master/basic/Lab%2002%20:%20%E6%8E%A8%E9%80%81LINE%20Template%20Messages.md)  
-Lab 03 : 如何發送可自由設置典籍區的ImageMap訊息 [here](https://github.com/isdaviddong/HOL-LineBotSDK/blob/master/basic/Lab%2003:%E5%A6%82%E4%BD%95%E7%99%BC%E9%80%81ImageMap%E8%A8%8A%E6%81%AF.md)   
+Lab 03 : 如何發送可自由設置點擊區的ImageMap訊息 [here](https://github.com/isdaviddong/HOL-LineBotSDK/blob/master/basic/Lab%2003:%E5%A6%82%E4%BD%95%E7%99%BC%E9%80%81ImageMap%E8%A8%8A%E6%81%AF.md)   
 Lab 04 : 如何發送可任意客製化格式的Flex訊息 [here](https://github.com/isdaviddong/HOL-LineBotSDK/blob/master/basic/Lab%2004:%20%E5%A6%82%E4%BD%95%E7%99%BC%E9%80%81Flex%20Message.md)  
 
 相關參考資料
