@@ -5,6 +5,13 @@
 本repos包含 LineBotSDK 套件各種API具體如何使用之Labs。  
 請遵循本手札勤於練習，十日必有小成，不出三月必能掌握 LINE Bot 開發技能於股掌之間... 😊  
 
+
+開發環境:
+---
+1. Windows, Mac, Linex OS with .net Core 
+2. .net core SDK 3.1+
+3. Visual Studio Code
+
 Lab Index:
 ---
 Lab 00 : 如何從無到有申請一隻LINE Bot [here](https://github.com/isdaviddong/HOL-LineBotSDK/blob/master/00.%20%E5%A6%82%E4%BD%95%E7%94%B3%E8%AB%8BLINE%20Bot.md)  
