@@ -8,7 +8,7 @@
 
 開發環境:
 ---
-1. Windows, Mac, Linex OS with .net Core 
+1. Windows / Mac / Linex OS with .net Core 
 2. .net core SDK 3.1+
 3. Visual Studio Code
 
