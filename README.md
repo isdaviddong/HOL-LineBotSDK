@@ -7,3 +7,13 @@
 Lab 01 : 如何發送基本訊息 [here](https://github.com/isdaviddong/HOL-LineBotSDK/blob/master/basic/Lab%2001%20:%20%E5%9F%BA%E6%9C%AC%E8%A8%8A%E6%81%AF%E6%8E%A8%E9%80%81.md)  
 Lab 02 : 如何發送LINE Template Messages [here](https://github.com/isdaviddong/HOL-LineBotSDK/blob/master/basic/Lab%2002%20:%20%E6%8E%A8%E9%80%81LINE%20Template%20Messages.md)  
 Lab 03 : 如何發送ImageMap訊息 [here](https://github.com/isdaviddong/HOL-LineBotSDK/blob/master/basic/Lab%2003:%E5%A6%82%E4%BD%95%E7%99%BC%E9%80%81ImageMap%E8%A8%8A%E6%81%AF.md)  
+
+
+相關參考資料
+---
+電子書：[https://www.pubu.com.tw/ebook/103305](https://www.blogger.com/blog/post/edit/4291069679343025964/3413012120805912874#)  
+實體書：[https://www.tenlong.com.tw/products/9789865022662](https://www.blogger.com/blog/post/edit/4291069679343025964/3413012120805912874#)  
+線上課程：[https://www.udemy.com/line-bot/](https://www.blogger.com/blog/post/edit/4291069679343025964/3413012120805912874#)  
+LineBotSDK：[https://www.nuget.org/packages/LineBotSDK](https://www.blogger.com/blog/post/edit/4291069679343025964/3413012120805912874#)  
+
+如果需要即時取得更多相關訊息，可按[這裡](https://www.blogger.com/blog/post/edit/4291069679343025964/3413012120805912874#)加入FB專頁。若這篇文章對您有所幫助，請幫我們分享出去，謝謝您的支持。
