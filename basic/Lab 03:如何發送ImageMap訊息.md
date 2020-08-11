@@ -83,7 +83,7 @@ PS D:\linetest>
 輸入底下程式碼，建立bot instance
 (請將token與UserId換為你自己的)
 ```csharp
-var  ChannelAccessToken = "___token___="; //Channel Access Token
+var  ChannelAccessToken = "___token___"; //Channel Access Token
 var  UserId = "___UserId__"; //收訊者
 var  bot = new  isRock.LineBot.Bot(ChannelAccessToken);
 ```
