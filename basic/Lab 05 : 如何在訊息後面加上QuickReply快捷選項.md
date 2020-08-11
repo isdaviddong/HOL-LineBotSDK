@@ -134,3 +134,12 @@ bot.PushMessage(UserId, m);
 ![圖片](https://i.imgur.com/IyU4knZ.png)
 
 
+相關參考資料
+---
+電子書：[https://www.pubu.com.tw/ebook/103305](https://www.pubu.com.tw/ebook/103305)  
+實體書：[https://www.tenlong.com.tw/products/9789865022662](https://www.tenlong.com.tw/products/9789865022662)  
+線上課程：[https://www.udemy.com/line-bot/](https://www.udemy.com/line-bot/)  
+LineBotSDK：[https://www.nuget.org/packages/LineBotSDK](https://www.nuget.org/packages/LineBotSDK)  
+
+如果需要即時取得更多相關訊息，可按[這裡](https://www.facebook.com/DotNetWalker/)加入FB專頁。若這篇文章對您有所幫助，請幫我們分享出去，謝謝您的支持。
+
