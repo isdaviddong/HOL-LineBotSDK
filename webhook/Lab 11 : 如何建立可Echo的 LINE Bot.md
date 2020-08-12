@@ -9,7 +9,7 @@
 1. 下載安裝 .net core sdk 3.1 以上版本 [here](https://dotnet.microsoft.com/download)
 2. 安裝 Visual Studio Code 開發工具 [here](https://code.visualstudio.com/download)
 3. 建立 .net core WebAPI 專案，在專案中引用 nuget 上的 LineBotSDK 套件。
-4. 安裝好 Ngrok 便於在開發環境測試 [here]([https://ngrok.com/](https://ngrok.com/)  
+4. 安裝好 Ngrok 便於在開發環境測試 [here](https://ngrok.com/)  
 
 ## Steps
 
