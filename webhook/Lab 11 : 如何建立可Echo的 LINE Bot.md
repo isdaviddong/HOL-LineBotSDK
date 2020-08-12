@@ -158,6 +158,7 @@ https://814273058c22.ngrok.io/api/LineBotWebHook
 
 ### 測試LINE Bot
 接著，請確定您先前已經將你的LINE Bot加為好友，若確定無誤，你可以跟LINE Bot對話。不管你說什麼，你的LINE Bot都會原封不動的Echo你：
+
 ![enter image description here](https://i.imgur.com/FJ5bSTP.png)
 
 因為我們在程式碼當中撰寫著：
@@ -168,13 +169,11 @@ https://814273058c22.ngrok.io/api/LineBotWebHook
 ```
 就這樣，你的第一個LINE Bot就完成了...
 
+### 備註
 ```
 若要中止此LINE Bot，可在VS Code的終端機中按下 Ctrl+C    
 若要中止Ngrok，可在Ngrok執行所在的command line中按下 Ctrl+C
 ```
-
-
-### how to debug
 
 相關參考資料
 ---
