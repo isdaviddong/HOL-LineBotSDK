@@ -1,4 +1,4 @@
-# Hands-On Labs - LineBotSDK 實作手札
+# Hands-On Labs - LineBotSDK 實作手札 (C#, .net core)
 
 ![圖片](https://i.imgur.com/nKmrTnO.png)   
 
@@ -8,8 +8,8 @@
 
 開發環境:
 ---
-1. Windows / Mac / Linex OS with .net Core 
-2. .net core SDK 3.1+
+1. Windows / Mac / Linex OS
+2. .net core SDK 3.1+ with C#
 3. Visual Studio Code
 
 Lab Index:
