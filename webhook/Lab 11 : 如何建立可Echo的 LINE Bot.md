@@ -124,9 +124,11 @@ dotnet run
 
 上面這個畫面代表，你的WebHook已經在Localhost本機電腦上的5000與5001 port 被執行起來了，你可以嘗試用Chrome瀏覽器呼叫  http://localhost:5000/api/LineBotWebHook 
 ![enter image description here](https://i.imgur.com/sIy5iwp.png)
+
 雖然看到上面的畫面，但結果是對的。
 ```
-上述畫面是因為我們試圖用 http get方式去access只支援http post方法的endpoint。(因為line bot要求採用 http post作為WebHook。你也可以使用postman以http post方式呼叫該endppint，應當會收到 http response 200的正常結果)
+上述畫面是因為我們試圖用 http get方式去access只支援http post方法的endpoint。
+(因為line bot要求採用 http post作為WebHook。你也可以使用postman以http post方式呼叫該endppint，應當會收到 http response 200的正常結果)
 ```
 
 ### 使用ngrok讓LINE Bot可以運行
