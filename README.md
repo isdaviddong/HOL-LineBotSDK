@@ -2,8 +2,8 @@
 
 ![圖片](https://i.imgur.com/nKmrTnO.png)   
 
-本repos包含 LineBotSDK 套件各種API具體如何使用之Labs。  
-請遵循本手札勤於練習，一周必有小成，不出百日必能掌握 LINE Bot 開發技能於股掌之間... 😊  
+本repo 包含 LineBotSDK 套件各種API具體如何使用之Labs。  
+請遵循本手札勤於練習，一周可有小成，不出百日必能掌握 LINE Bot 開發技能於股掌之間... 😊  
 
 
 開發環境:
