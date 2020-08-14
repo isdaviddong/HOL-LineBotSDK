@@ -18,10 +18,11 @@
 請先完成先前介紹的Lab，建立好可以Echo的LINE Bot之後，請注意底下程式碼的第29行：
 ![圖片](https://i.imgur.com/6CdIByx.png)
 
-請將上述的程式碼註銷，並加上 { }。
+請將上述的第29行程式碼註銷，並在if敘述後加上 {  }，完成後如下：
+![圖片](https://i.imgur.com/p7edkBU.png)
 
 #### 加上取得用戶資訊的程式碼
-接著，請在{...}中，加上底下程式碼，以取得用戶相關資訊:
+接著，請在 if 敘述的 { ... } 中，加上底下程式碼，以取得用戶相關資訊:
 ```csharp
 var user = this.GetUserInfo(LineEvent.source.userId);
 responseMsg = $"名稱: {user.displayName} \n 狀態: {user.statusMessage} \n pictureUrl: {user.pictureUrl}";
