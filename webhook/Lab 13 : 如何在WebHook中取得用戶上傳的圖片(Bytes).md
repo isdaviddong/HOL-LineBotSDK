@@ -15,7 +15,7 @@
 ## Steps
 
 #### 依照Lab11，建立好可Echo的LINE Bot
-請先完成先前介紹的Lab，建立好可以Echo的LINE Bot之後，請注意底下程式碼的第29行：
+請先完成先前介紹的Lab，建立好可以Echo的LINE Bot之後，請注意底下程式碼的第29行：  
 
 ![圖片](https://i.imgur.com/6CdIByx.png)
 
@@ -34,7 +34,7 @@ else if (LineEvent.type.ToLower() == "message" && LineEvent.message.type == "ima
 請注意，測試時建議你必須透過 ngrok 將運行的 endpoint 位置轉換成 LINE 伺服器能取得的 外部 URL。
 這部分如果有問題，可以參考 Lab 11。
 ```
-執行後結果如下：
+執行後結果如下：  
 ![圖片](https://i.imgur.com/JHL5WA2.png)
 
 可以正確抓到圖檔資訊了。
