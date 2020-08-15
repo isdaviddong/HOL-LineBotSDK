@@ -30,9 +30,9 @@ responseMsg = $"名稱: {user.displayName} \n 狀態: {user.statusMessage} \n pi
 完成後的程式碼大致如下:
 ![圖片](https://i.imgur.com/Cbhs0yQ.png)
 
-完成後，請以dotnet run執行，並透過ngrok取得webhook，並設定於LINE Bot後台。
+程式碼撰寫完後，請以dotnet run執行該WebAPI程式，並透過ngrok取得webhook的endpoint後，將其設定於LINE Bot後台，完成後即可測試。
 
-測試結果如下：
+實際與LINE Bot對談的測試結果大致如下：
 ![圖片](https://i.imgur.com/U3psUNs.png)
 
 相關參考資料
