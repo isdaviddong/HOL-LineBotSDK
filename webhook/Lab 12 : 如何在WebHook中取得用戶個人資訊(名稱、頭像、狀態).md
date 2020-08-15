@@ -16,9 +16,11 @@
 
 #### 依照Lab11，建立好可Echo的LINE Bot
 請先完成先前介紹的Lab，建立好可以Echo的LINE Bot之後，請注意底下程式碼的第29行：
+
 ![圖片](https://i.imgur.com/6CdIByx.png)
 
 請將上述的第29行程式碼註銷，並在if敘述後加上 {  }，完成後如下：
+
 ![圖片](https://i.imgur.com/p7edkBU.png)
 
 #### 加上取得用戶資訊的程式碼
@@ -32,7 +34,7 @@ responseMsg = $"名稱: {user.displayName} \n 狀態: {user.statusMessage} \n pi
 
 程式碼撰寫完後，請以dotnet run執行該WebAPI程式，並透過ngrok取得webhook的endpoint後，將其設定於LINE Bot後台，完成後即可測試。
 
-實際與LINE Bot對談的測試結果大致如下：
+實際與LINE Bot對談的測試結果大致如下：  
 ![圖片](https://i.imgur.com/U3psUNs.png)
 
 相關參考資料
