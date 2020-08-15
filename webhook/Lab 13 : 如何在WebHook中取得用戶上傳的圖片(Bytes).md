@@ -34,7 +34,8 @@ else if (LineEvent.type.ToLower() == "message" && LineEvent.message.type == "ima
 撰寫完成後，即可透過 dotnet run執行此WebHook...
 
 ```dos
-請注意，測試時你必須確定已可卻執行dotnet run，且建議你必須透過 ngrok 將運行的 endpoint 位置轉換成 LINE 伺服器能讀取的外部 URL。然後將其設定在LINE Bot的管理後台，這樣才能開始測試...
+請注意，測試時你必須確定已可卻執行dotnet run，且建議你必須透過 ngrok 將運行的 endpoint 位置轉換成 LINE 伺服器能讀取的外部 URL。  
+然後將其設定在LINE Bot的管理後台，這樣才能開始測試...  
 
 Ngrok這部分如果不熟悉，可以參考 Lab 11。
 ```
