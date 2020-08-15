@@ -2,7 +2,7 @@
 ===
 ## Overview
 
-本Lab介紹如何在WebHook中，取得用戶的個人身分資訊。
+本Lab介紹如何在WebHook中，取得用戶上傳的圖檔Body Bytes。
 
 ## Prerequisites
 0. 請先建立好LINE Bot帳號，並取得Channel Access Token與UserId [參考這裡](https://github.com/isdaviddong/HOL-LineBotSDK/blob/master/00.%20%E5%A6%82%E4%BD%95%E7%94%B3%E8%AB%8BLINE%20Bot.md)
