@@ -75,7 +75,7 @@ PS D:\lifftest>
 ```
 ###  修改程式碼
 
-接著在  Liff.cshtml 這支程式碼中，找到 "____請換成你的LiffAppID_____"，並置換成你先前建立LIFF時保留的LiffAddID。
+接著在  Liff.cshtml 這支程式碼中，找到 "_____請換成你的LiffAppID_____"，並置換成你先前建立LIFF時保留的LiffAddID。
 
 完成後類似底下這樣：
 ![enter image description here](https://i.imgur.com/05Z3b8E.png)
