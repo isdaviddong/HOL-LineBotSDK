@@ -124,10 +124,10 @@ https://814273058c22.ngrok.io/liff
 
 完成後， 即可抓取LIFF URL：
 
-![enter image description here](https://i.imgur.com/XXRwbNG.png)
+![enter image description here](https://i.imgur.com/XXRwbNG.png =700x )
 
 將此URL在LINE的聊天室窗中被點選，或讓手機點選該URL、或將該URL轉成QR Code，讓手機掃描，即可測試LIFF應用。
-![enter image description here](https://i.imgur.com/dWIpwEn.png)
+![enter image description here](https://i.imgur.com/dWIpwEn.png =700x )
 
 ### 備註
 ```
