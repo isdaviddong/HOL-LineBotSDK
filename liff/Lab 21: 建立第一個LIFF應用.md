@@ -11,12 +11,14 @@ Lab 21: 建立第一個LIFF應用
 2.  建立完成LINE Login Channel之後，請進入LIFF分頁，並點選 Add 建立新的LIFF：
 ![enter image description here](https://i.imgur.com/d0gshyi.png)
 
+
 建立LIFF時Endpoint URL可以先隨意設定，其餘選項建議都打勾:
 ![enter image description here](https://i.imgur.com/jqrozvs.png)
 
 完成後，按下Add建立LIFF即可。
 
 注意，若需要測試 shareTargetPicker，底下選項必須打勾:
+
 ![enter image description here](https://i.imgur.com/2gpuOzl.png)
 3. 完成後，可取得 LIFF ID(類似0000000000-spPeRmAn) ，將其記錄起來即可，後面會用到。
 4. 下載並解壓縮 Ngrok ，以便於在開發環境測試 [here](https://ngrok.com/)  
