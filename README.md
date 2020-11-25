@@ -32,6 +32,7 @@ Lab 16 : 如何在WebHook中取得前端LINE Bot postback回來的資訊
 Exercise : 建立人臉辨識 LINE Bot [Sample code](https://github.com/isdaviddong/Linebot-Demo-FaceRecognition)     
 Exercise : 建立線上即時翻譯 LINE Bot [Sample code](https://github.com/isdaviddong/Linebot-Demo-TranslatorKing)
 
+Lab 21 : 建立第一個LIFF應用[here](https://github.com/isdaviddong/HOL-LineBotSDK/blob/master/liff/Lab%2021:%20%E5%BB%BA%E7%AB%8B%E7%AC%AC%E4%B8%80%E5%80%8BLIFF%E6%87%89%E7%94%A8.md)
 相關參考資料
 ---
 電子書：[https://www.pubu.com.tw/ebook/103305](https://www.pubu.com.tw/ebook/103305)  
