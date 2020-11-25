@@ -5,11 +5,21 @@ Lab 21: 建立第一個LIFF應用
 本Lab介紹如何透過 C# 程式碼，以 .net core WebApp開發框架，建立第一個LIFF(LINE Front-end Framework)應用程式。
 
 ## Prerequisites
-0. 請先建立好LINE Login Channel，詳細作法可[參考這裡](https://developers.line.biz/en/docs/liff/getting-started/#creating-a-provider-and-channel)
-1.  建立完成LINE Login Channel之後，請進入LIFF分頁，並點選 Add 建立新的LIFF：(建立時 endpoint URL可以先隨意設定)
+0. 請先進入[LINE Developer Portal](https://developers.line.biz/zh-hant/)，建立好LINE Login Channel:
+![enter image description here](https://i.imgur.com/1odcdOS.png)
+詳細作法可[參考這裡](https://developers.line.biz/en/docs/liff/getting-started/#creating-a-provider-and-channel)
+2.  建立完成LINE Login Channel之後，請進入LIFF分頁，並點選 Add 建立新的LIFF：
 ![enter image description here](https://i.imgur.com/d0gshyi.png)
-2. 完成後，取得 LIFF ID(類似0000000000-spPeRmAn) 即可。
-3. 安裝好 Ngrok 便於在開發環境測試 [here](https://ngrok.com/)  
+
+建立LIFF時Endpoint URL可以先隨意設定，其餘選項建議都打勾:
+![enter image description here](https://i.imgur.com/jqrozvs.png)
+
+完成後，按下Add建立LIFF即可。
+
+注意，若需要測試 shareTargetPicker，底下選項必須打勾:
+![enter image description here](https://i.imgur.com/2gpuOzl.png)
+3. 完成後，可取得 LIFF ID(類似0000000000-spPeRmAn) ，將其記錄起來即可，後面會用到。
+4. 下載並解壓縮 Ngrok ，以便於在開發環境測試 [here](https://ngrok.com/)  
 
 ## Steps
 
@@ -75,7 +85,7 @@ PS D:\lifftest>
 ```
 ###  修改程式碼
 
-接著在  Liff.cshtml 這支程式碼中，找到 "_____請換成你的LiffAppID_____"，並置換成你先前建立LIFF時保留的LiffAddID。
+接著在  Liff.cshtml 這支程式碼中，找到 "____請換成你的LiffAppID_____"，並置換成你先前建立LIFF時保留的LiffAddID。
 
 完成後類似底下這樣：
 ![enter image description here](https://i.imgur.com/05Z3b8E.png)
@@ -92,9 +102,11 @@ dotnet run
 ![enter image description here](https://i.imgur.com/vjODN3s.png)
 
 看到上面的畫面後，代表我們的應用程式已經可以在開發環境執行。
+>注意，如果你發現被導引到 https://localhost:5001，很可能表示你上一個註銷 startup.cs 43行程式碼的動作沒有儲存或遺漏了。
 
 ### 使用ngrok讓LIFF可以運行
 請不要關閉應用程式的執行狀態。  
+
 接著，將下載好的ngrok.zip壓縮檔解開，會看到其中有ngrok.exe執行檔，請將其放置在你覺得方便的資料夾下，並進入該資料夾，執行下列指令：
 ```dos
 ngrok http 5000 -host-header="localhost:5000"
@@ -110,7 +122,11 @@ https://814273058c22.ngrok.io/liff
 接著，進入 LINE Login管理後台，將上面得到的 endpoint 位置，設定在Endpoint URL中:
 ![enter image description here](https://i.imgur.com/9H0U5wb.png)
 
-完成後， 即可抓取LIFF URL，讓手機點選該URL即可測試使用。
+完成後， 即可抓取LIFF URL：
+![enter image description here](https://i.imgur.com/XXRwbNG.png)
+
+將此URL在LINE的聊天室窗中被點選，或讓手機點選該URL、或將該URL轉成QR Code，讓手機掃描，即可測試LIFF應用。
+![enter image description here](https://i.imgur.com/dWIpwEn.png)
 
 ### 備註
 ```
