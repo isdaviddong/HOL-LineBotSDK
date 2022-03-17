@@ -132,11 +132,10 @@ dotnet run
 ```
 
 ### 使用ngrok讓LINE Bot可以運行
-請不要關閉應用程式的執行狀態。  
-請註冊 NGROK帳號
-https://dashboard.ngrok.com/login
-下載 NGROK: https://dashboard.ngrok.com/get-started/setup
-並取得token, 類似
+請不要關閉應用程式的執行狀態。    
+請註冊 NGROK帳號 https://dashboard.ngrok.com/login   
+下載 NGROK: https://dashboard.ngrok.com/get-started/setup  
+並取得token, 類似  
 ```dos
 ngrok authtoken 2eeXX2nML9kBGsaa_5FtqZEnXSt2Ho7BXgPV3Ar4
 ```
