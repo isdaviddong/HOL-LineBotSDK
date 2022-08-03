@@ -141,7 +141,7 @@ ngrok authtoken 2eeXX2nML9kBGsaa_5FtqZEnXSt2Ho7BXgPV3Ar4
 ```
 接著，執行下列指令：
 ```dos
-ngrok http 5000 -host-header="localhost:5000"
+ngrok http 5000 --host-header="localhost:5000" --region us
 ```
 執行結果如下：
 ![enter image description here](https://i.imgur.com/0PXeu6J.png)
