@@ -27,20 +27,20 @@ PS C:\> dotnet tool install --global line.cli
 工具 'line.cli' 已安裝。
 ```
 2. 申請 LINE Notify Token
-前往[LINE Notify](https://notify-bot.line.me/my/)，以個人帳號登入，至個人頁面的最下方『發行權杖』：
-<img scr="https://arock.blob.core.windows.net/blogdata202308/21-201331-7bdb21b9-97b4-4d3d-a681-aa9e9b467e96.png" />
-3. 選擇訊息要發送到哪一個群組(亦可發送給自己一人)：
-<img scr="https://arock.blob.core.windows.net/blogdata202308/21-201651-abb44087-02ce-4b6b-bea2-c6aed95538db.png" />
+前往[LINE Notify](https://notify-bot.line.me/my/)，以個人帳號登入，至個人頁面的最下方『發行權杖』：  
+![圖片](https://i.imgur.com/6JiBvM0.png)  
+4. 選擇訊息要發送到哪一個群組(亦可發送給自己一人)：  
+![image](https://github.com/isdaviddong/HOL-LineBotSDK/assets/4635798/6126daab-6497-45b1-a7bd-74296b7505dc)
 
-4. 按下『發行』後，可取得類似底下的 Notify Token:
-<img scr="https://arock.blob.core.windows.net/blogdata202308/21-201822-c5c6645e-a708-4531-b8c5-aa4e509e1730.png" />
-5. 如果是發送給群組，記得將 LINE Notify帳號加入該群組中。
-6. 未來，只需要透過底下Command Line指令，即可免費發送LINE訊息給特定群組：
+5. 按下『發行』後，可取得類似底下的 Notify Token:  
+![image](https://github.com/isdaviddong/HOL-LineBotSDK/assets/4635798/b6ca1185-296b-481d-ad71-61cfca2df6bd)
+6. 如果是發送給群組，記得將 LINE Notify帳號加入該群組中。
+7. 未來，只需要透過底下Command Line指令，即可免費發送LINE訊息給特定群組：
 ```bash
 PS C:\> line notify -n [NotifyToken] -m 要發送的訊息 
 ```
-你會發現訊息就會出現在LINE通知中：
-<img scr="https://arock.blob.core.windows.net/blogdata202308/21-202529-ea9f33f1-2874-4b8b-9ecb-415b01d92f21.png" />
+你會發現訊息就會出現在LINE通知中：  
+ ![image](https://github.com/isdaviddong/HOL-LineBotSDK/assets/4635798/e443d337-67ed-43df-9a94-3641cb190a85)
 
 相關參考資料
 ---
