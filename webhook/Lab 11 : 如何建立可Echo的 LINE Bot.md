@@ -6,7 +6,7 @@
 
 ## Prerequisites
 0. 請先建立好LINE Bot帳號，並取得Channel Access Token與UserId [參考這裡](https://github.com/isdaviddong/HOL-LineBotSDK/blob/master/00.%20%E5%A6%82%E4%BD%95%E7%94%B3%E8%AB%8BLINE%20Bot.md)
-1. 下載安裝 .net core sdk 3.1 以上版本 [here](https://dotnet.microsoft.com/download)
+1. 下載安裝 .net core sdk 8 以上版本 [here](https://dotnet.microsoft.com/download)
 2. 安裝 Visual Studio Code 開發工具 [here](https://code.visualstudio.com/download)
 3. 建立 .net core WebAPI 專案，在專案中引用 nuget 上的 LineBotSDK 套件。
 4. 安裝好 Ngrok 便於在開發環境測試 [here](https://ngrok.com/)  
@@ -18,7 +18,8 @@
 ```bash
 PS D:\> md linetest
 PS D:\> cd linetest
-PS D:\linetest> dotnet new webapi
+# 如果是 .net 8 之外的版本，請用 dotnet new webapi 替代
+PS D:\linetest>dotnet new webapi --use-controllers
 ```
 系統會出現類似底下畫面...
 ```bash
