@@ -23,7 +23,7 @@ PS D:\linetest>dotnet new webapi --use-controllers
 ```
 系統會出現類似底下畫面...
 ```bash
-PS D:\linetest> dotnet new webapi  
+PS D:\linetest> dotnet new webapi -controllers
 The template "ASP.NET Core Web API" was created successfully.  
   
 Processing post-creation actions...  
